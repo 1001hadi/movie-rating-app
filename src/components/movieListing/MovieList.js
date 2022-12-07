@@ -9,8 +9,8 @@ import "./movieList.scss";
 const MovieList = () => {
   const movies = useSelector(getAllMovies);
   const shows = useSelector(getAllShows);
-  let renderMovies,
-    renderShows = "";
+  let renderMovies = "";
+  let renderShows = "";
 
   renderMovies =
     movies.Response === "True" ? (
